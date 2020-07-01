@@ -4,13 +4,23 @@
     margin: 0;
     padding: 0;
 }
+html{
+    scroll-behavior: smooth;
+}
+a.btn_down{
+    text-decoration: none;
+    color: #fff;
+    position: absolute;
+    bottom: 41px;
+    font-size: 30px;
+    height: 60px;
+    width: 60px;
+    margin-left: 48%;
 
-/* .myImg{
-    background-image: url(/IMG/bg1.jpg);
-    width: 100%;
-    height: 100vh;
-    background-attachment: fixed;
-} */ 
+}
+a.btn_down:hover{
+    color: #1ebba3 ;
+}
 
 
 body{
@@ -78,19 +88,30 @@ body{
 #aboutMe img{
     width: 200px;
     height: 200px;
-    /* border-radius: 200px;
-    margin-left: 150px; */
 }
 .black-bg{
     background-color: rgb(3, 44, 78);
 }
+.heading-underline2{
+    background-color: white;
+    width: 5rem;
+    height: .1rem;
+    margin: 0 auto;
+}
+#aboutMe .title{
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+#aboutMe .prof{
+    font-family: 'Raleway', sans-serif;
+    font-size: 13px;
+    letter-spacing: 1px;
+    color: rgb(223, 222, 222);
+}
 /* project css */
 .bgimg2{
     background-image: url(IMG/project.jpg); 
-    /* background-position: relative;    */
-    /* background-size: cover; */
-    /* width: 100%;
-    height: 700px; */
+
 }
 .bg-overlay {
     background-color:rgba(0,0,0,0.50);
@@ -242,26 +263,36 @@ body{
 }
 
 /* footer css */
-.fa-facebook{
-    font-size: 30px;
-    padding-top: 20px;
-    padding-right: 11px;
+.fa-facebook-f{
+    font-size: 20px;
+    margin-left: 18px;
+    color: white;
 }
 .fa-twitter{
-    font-size: 30px;
-    padding-top: 20px;
-    padding-right: 11px;
+    font-size: 20px;
+    margin-left: 220px;
+    color: white;
+
 }
-.fa-quora{
-    font-size: 30px;
-    padding-top: 20px;
-    padding-right: 11px;
+.fa-instagram{
+    font-size: 20px;
+    margin-left: 18px;
+    color: white;
+
 }
-.fa-youtube{
-    font-size: 30px;
-    padding-top: 20px;
-    padding-right: 11px;
+.fa-instagram:hover{
+ color: #1ebba3;
+
 }
+.fa-twitter:hover{
+    color: #1ebba3
+
+}
+.fa-facebook-f:hover{
+    color: #1ebba3
+    
+}
+
 
 
 
